@@ -1,0 +1,70 @@
+.titulo {
+    background: rgb(218, 22, 22);
+    padding: 50px;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    border-radius: 10px;
+    width: 80%;
+    margin: 0 10% 0 10%;
+    padding: 2% 0;
+
+}
+
+.field {
+    width: 60%;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 5px 0 15px 0;
+}
+
+.legenda {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+}
+
+.input_radio {
+    cursor: pointer;
+    padding: 5px;
+}
+
+.input_text {
+    margin: 10px 0;
+    width: 400px;
+    padding: 15px 20px;
+    border-radius: 5px;
+    border: 0.5px solid;
+}
+
+.enviar {
+    margin: 1% 0 0 20%;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    background: rgb(202, 34, 34);
+    color: whitesmoke;
+    width: 25%;
+    padding: 15px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 1s all;
+}
+
+.enviar:hover {
+    background: rgb(216, 20, 20);
+    transform: scale(1.2);
+    padding: 15px 15px;
+}
+
+.enviar:active {
+    color: rgb(0, 0, 0);
+}
